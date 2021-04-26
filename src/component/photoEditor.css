@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainImageViewer {
+    width: 500px;
+    height: 500px;
+}
+.rotateState1 {
+    transform: rotate(0deg);
+}
+.rotateState2 {
+    transform: rotate(90deg);
+}
+.rotateState3 {
+    transform: rotate(180deg);
+}
+.rotateState4 {
+    transform: rotate(270deg);
+}
+.zoomIn {
+    transform: scale(1.2);
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.photoEditorFrame {
+    width: 70%;
+    border-right: 1px solid #D2D2D2;
+    margin-bottom: 10%;
+}
+.photoEditorFrames {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+    height: 300px;
+}
+.editorButons {
+    background: #63ABFF;
+    width: 108px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 2px;
+}
+.editorButons > span {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+.photoTextInputContainer {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.photoTextInputContainer > input {
+    height: 53px;
+    width: 187px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+.photoTextInputContainer > input:focus {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+.previewImage {
+    width: 75px;
+    height: 65px;
+}
