@@ -27,9 +27,13 @@
     justify-content: center;
 }
 .photoEditorFrame {
-    width: 70%;
     border-right: 1px solid #D2D2D2;
     margin-bottom: 10%;
+}
+.imageWindowsWrapper {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
 }
 .photoEditorFrames {
     display: flex;

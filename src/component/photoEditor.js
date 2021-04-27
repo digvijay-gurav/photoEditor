@@ -14,13 +14,6 @@ export default function PhotoEditor(props) {
             changeRotateState(rotateState+1)
         }
     }
-    // const zoomImage = function(zoomIn) {
-    //     if(zoomIn) {
-    //         changeZoomIn(zoomIn)
-    //     } else {
-    //         changeZoomIn(zoomIn);
-    //     }
-    // }
     const addText = function() {
 
         if(!document.getElementById('addInputText')) {
@@ -29,7 +22,6 @@ export default function PhotoEditor(props) {
         }
     }
     return(
-        //mainImageViewer rotateState${rotateState}
         <div className="main">
             <div className="imageWindowsWrapper">
                 <div className={`photoEditorFrame rotateState${rotateState}`}>
