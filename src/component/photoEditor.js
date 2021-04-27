@@ -8,7 +8,7 @@ export default function PhotoEditor(props) {
     const [zoomIn, changeZoomIn] = useState(false);
 
     const rotateImage = function() {
-        if(rotateState === 5) {
+        if(rotateState === 4) {
             changeRotateState(1)
         } else {
             changeRotateState(rotateState+1)
